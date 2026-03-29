@@ -7,20 +7,20 @@ class Qtip < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/callmeradical/qtip/releases/download/v0.5.1/qtip_darwin_arm64.tar.gz"
-      sha256 "25165a7a842e9ad07c4b14b70396aa7c9797ef047c3bd35b2f5ca3a93a4bae09"
+      sha256 "a2b836a9b7eb0e4f05834901df0f5c4d2bc9c5ee3da2f6d749fdf927389caacf"
     else
       url "https://github.com/callmeradical/qtip/releases/download/v0.5.1/qtip_darwin_amd64.tar.gz"
-      sha256 "e369f278052d4c1c8d1ab9d4eed8c668c51ea62014238c72d4ba88f4da18bda2"
+      sha256 "91a96cbf36f986a2856799bf067f579a8e5c1e6fdc30ccfcf82386933881f31e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/callmeradical/qtip/releases/download/v0.5.1/qtip_linux_arm64.tar.gz"
-      sha256 "3edb03d7a5afdf90ccbcccf06ced686f6a4f8532be9c9ac7921036d0b6d333cf"
+      sha256 "9ed20aa76d2bece64fbf36ddad199bc1d1d5cf6c8ebcba484070d04c8bd3576a"
     else
       url "https://github.com/callmeradical/qtip/releases/download/v0.5.1/qtip_linux_amd64.tar.gz"
-      sha256 "a593aa627f0a0a803b08baac665dd0900b3bac2631e556ed1f9548e0fa4ac03f"
+      sha256 "724700bec2693b1d56788aef5ecd8f6824d0997ac5986d13c9e2a9f581401ce2"
     end
   end
 
