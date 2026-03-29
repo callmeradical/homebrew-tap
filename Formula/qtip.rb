@@ -1,26 +1,26 @@
 class Qtip < Formula
   desc "Scenario evaluation platform for AI agent integrity"
   homepage "https://github.com/callmeradical/qtip"
-  version "0.3.0"
+  version "0.4.0"
   license "ISC"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/callmeradical/qtip/releases/download/v0.3.0/qtip_darwin_arm64.tar.gz"
-      sha256 "0ceb26089c4c55e5b765b43713f4159e9f32272681aef5bcbcf9c6721228f030"
+      url "https://github.com/callmeradical/qtip/releases/download/v0.4.0/qtip_darwin_arm64.tar.gz"
+      sha256 "0dcfab3ce64c320038c23a516cb7722cc146704d600b147a951ab63b5aca01eb"
     else
-      url "https://github.com/callmeradical/qtip/releases/download/v0.3.0/qtip_darwin_amd64.tar.gz"
-      sha256 "460e8b95891825fa4f94f664cb7bec3cebcef6a0d5e3d6b5876d29db3c036906"
+      url "https://github.com/callmeradical/qtip/releases/download/v0.4.0/qtip_darwin_amd64.tar.gz"
+      sha256 "cda18b199f482d7cc38f0dc0100853b72cab1c8944503f90a04466293647ed04"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/callmeradical/qtip/releases/download/v0.3.0/qtip_linux_arm64.tar.gz"
-      sha256 "e249eebc36dbe4ba3faac0db77acbb2342d91676472d84ae3b0cf978626dafa2"
+      url "https://github.com/callmeradical/qtip/releases/download/v0.4.0/qtip_linux_arm64.tar.gz"
+      sha256 "8d3b4232b0ae6dce3c4fd7351efc692bfbd1270653a4dd8b20b0b24ef8a14c80"
     else
-      url "https://github.com/callmeradical/qtip/releases/download/v0.3.0/qtip_linux_amd64.tar.gz"
-      sha256 "8582c09d63b65fcd3aa9ee65f7e9753f38d3b3bb1742b0776cb4e3b95738233c"
+      url "https://github.com/callmeradical/qtip/releases/download/v0.4.0/qtip_linux_amd64.tar.gz"
+      sha256 "05bd3ca3f0eea5d5fe75cb6a34500d0ea788207ed9dd2b0c36307d97f485ab37"
     end
   end
 
