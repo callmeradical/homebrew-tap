@@ -3,7 +3,7 @@ cask "fractal" do
   name "fractal"
   desc "TUI client for Smith autonomous agent orchestration"
   homepage "https://github.com/callmeradical/fractal"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "fractal" do
   on_macos do
     on_intel do
       url "https://github.com/callmeradical/fractal/releases/download/v#{version}/fractal_darwin_amd64.tar.gz"
-      sha256 "35fc754e58f1293848c7d5ae1f03f0f0c2c821178fd6ddd581776bdd87052a58"
+      sha256 "42a56328013acb88fcb2c646ccfbb6e732c1a15bf9870e3fe4182109cc198e33"
     end
     on_arm do
       url "https://github.com/callmeradical/fractal/releases/download/v#{version}/fractal_darwin_arm64.tar.gz"
-      sha256 "866b6c41ea9f193e3be2f15957f10e330a97f214dfb435f2f94747e9e17e62ab"
+      sha256 "d0330cb96cc1f1a8fad7d80a575da36bee207ac6f3b48385b3e6b56077e2fd1e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/callmeradical/fractal/releases/download/v#{version}/fractal_linux_amd64.tar.gz"
-      sha256 "7cf658c83e19e6bc84913b4665adee82ef40bb77d99c552968f5b75942e69994"
+      sha256 "30c358b53c1c9222f5a09b2e2611aaec75a9440878b7e9ac8c11da6f06dc34de"
     end
     on_arm do
       url "https://github.com/callmeradical/fractal/releases/download/v#{version}/fractal_linux_arm64.tar.gz"
-      sha256 "5a52a2719e711ebed23dd00fc5a8c5fb882c718a8ecee173efa90ab8e312a630"
+      sha256 "920b3708567ff2e53f8bf84d0fb654a8bd6055800ba3ccb6da1343cf8beea823"
     end
   end
 
